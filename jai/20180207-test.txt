@@ -1,0 +1,93 @@
+Group: core-gdal-jai
+  time: 20180207T160955+0000 - 20180207T161025+0000
+  total duration:       30
+  requests:             1537
+  requests per second:  51
+  response duration (ms)
+    min:                1
+    average:            193
+    max:                6289
+    standard deviation: 573
+    quantiles (ms)
+         10%        4
+         20%        8
+         30%       12
+         40%       17
+         50%       24
+         60%       31
+         70%       44
+         80%       67
+         90%      294
+         99%     2400
+       99.9%     4515
+      100.0%     6289 (max. value)
+  response size (bytes)
+    total:              37697179
+    min:                493
+    average:            24526
+    max:                85846
+    standard deviation: 22593
+  response status codes
+    200:                1537 (100%)
+Group: core_getmap-gdal-jai
+  time: 20180207T161031+0000 - 20180207T161100+0000
+  total duration:       30
+  requests:             135
+  requests per second:  4
+  response duration (ms)
+    min:                168
+    average:            2266
+    max:                12058
+    standard deviation: 2304
+    quantiles (ms)
+         10%      512
+         20%      713
+         30%      955
+         40%     1244
+         50%     1635
+         60%     1990
+         70%     2233
+         80%     2609
+         90%     6398
+         99%    11549
+       99.9%    12026
+      100.0%    12058 (max. value)
+  response size (bytes)
+    total:              58478127
+    min:                2199
+    average:            433171
+    max:                1180973
+    standard deviation: 357445
+  response status codes
+    200:                 135 (100%)
+Group: gdal_getmap-gdal-jai
+  time: 20180207T161108+0000 - 20180207T161138+0000
+  total duration:       29
+  requests:             355
+  requests per second:  12
+  response duration (ms)
+    min:                41
+    average:            846
+    max:                2533
+    standard deviation: 583
+    quantiles (ms)
+         10%      125
+         20%      167
+         30%      233
+         40%      683
+         50%      905
+         60%     1062
+         70%     1185
+         80%     1348
+         90%     1606
+         99%     2205
+       99.9%     2396
+      100.0%     2533 (max. value)
+  response size (bytes)
+    total:              124459431
+    min:                2305
+    average:            350589
+    max:                885967
+    standard deviation: 341606
+  response status codes
+    200:                 355 (100%)
